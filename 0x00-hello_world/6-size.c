@@ -1,4 +1,6 @@
-#include <stdio.h>                                                                        /**
+#include <stdio.h>
+
+/**
  * main - Prints the size of many var types
  *
  * Return: Always 0 (Success)
@@ -10,6 +12,7 @@ int main(void)
 	long long int c;
 	char d;
 	float f;
+
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
 	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
 	printf("Size of a long long: %lu byte(s)\n", (unsigned long)sizeof(c));
