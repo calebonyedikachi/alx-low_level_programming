@@ -1,27 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of a pair of
- * two digiit numbers, without any repetition.
+ * main - Prints numbers from 00 to 99.
  *
- * Return: 0 on success
+ * Return: Always 0.
  */
 int main(void)
 {
-int i, j;
+int c, i, k;
 
-for (i = 0; i <= 99; i++)
+for (c = '0'; c <= '9'; c++)
 {
-for (j = 0; j <= 99; j++)
+	for (i = '0'; i <= '9'; i++)
 {
-	if (i < j && i != j)
+	for (k = '0'; k <= '9'; k++)
 {
-	putchar((i / 10) + '0');
-	putchar((i % 10) + '0');
-	putchar(' ');
-	putchar((j / 10) + '0');
-	putchar((j % 10) + '0');
-	if (i != 98 || j != 99)
+if (c < i && i < k)
+{
+	putchar(c);
+	putchar(i);
+	putchar(k);
+
+if (c != '7')
 {
 	putchar(',');
 	putchar(' ');
@@ -29,6 +29,9 @@ for (j = 0; j <= 99; j++)
 }
 }
 }
+}
+
 	putchar('\n');
-	return (0);
+
+return (0);
 }
