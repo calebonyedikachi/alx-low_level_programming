@@ -7,7 +7,7 @@
 - C language (Predominant)
 - Bash (Shell)
 
-# AUTHORS
+# AUTHOR
 **👤 Engr. Caleb Onyedikachi Ugwoke**
 > **calebugwoke@gmail.com**
 📞 **+234 (0) 8136 298 531**
